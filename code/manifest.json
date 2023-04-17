@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "permissions": ["scripting", "activeTab"],
+  "name": "AH Easy macros",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "js": ["layout.js"],
+      "matches": ["https://www.ah.nl/*"]
+    }
+  ]
+}
